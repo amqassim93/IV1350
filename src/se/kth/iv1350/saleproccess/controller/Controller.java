@@ -5,6 +5,7 @@ import se.kth.iv1350.saleproccess.integration.ItemRegister;
 import se.kth.iv1350.saleproccess.integration.Printer;
 import se.kth.iv1350.saleproccess.integration.VAT;
 import se.kth.iv1350.saleproccess.model.*;
+import se.kth.iv1350.saleproccess.view.TotalRevenueView;
 
 /**
  * This is the application’s only controller class. All
@@ -16,21 +17,24 @@ public class Controller {
 
     private ItemRegister itemRegister;
     private  Sale sale;
-    private Item enteredItem;
     private VAT vat;
     private CashRegister cashRegister;
     private Printer printer;
+    private Display display;
+    private TotalRevenueView onDisplay;
 
 
     /** create a new instance
  * @param itemRegister used to get class that handle items in database
  * */
 
-    public Controller (ItemRegister itemRegister, Printer printer, CashRegister cashRegister)
+    public Controller (ItemRegister itemRegister, Printer printer, CashRegister cashRegister, Display display, TotalRevenueView total)
     {
         this.itemRegister = itemRegister;
         this.printer=printer;
         this.cashRegister=cashRegister;
+        this.display = display;
+        this.onDisplay = total;
     }
 
     public  void startNewSale ()
@@ -59,8 +63,13 @@ public class Controller {
         return sale.getCurrentTotal();
     }
 
-    public Amount signalLastItem(){
-        return sale.getCurrentTotal().multi(vat.getVatProcent());
+    public Display getDisplay(){
+        return display;
+    }
+
+    public void signalLastItem(){
+
+       // return sale.getCurrentTotal().multi(vat.getVatProcent());
     }
 
     public void pay(Amount paidAmt){

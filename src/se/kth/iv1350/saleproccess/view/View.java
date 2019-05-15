@@ -43,8 +43,9 @@ public class View {
         contr.enterTheItem(4, new Amount(3));
         contr.enterTheItem(7, new Amount(9));*/
       // enterItem(5);
-      // enterItem(4);
-       enterItem(0);
+       enterItem(4);
+       enterItem(5);
+        //enterItem(7);
 
         Amount payment = new Amount(50);
         contr.pay(payment);
