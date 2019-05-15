@@ -34,8 +34,9 @@ public class Item {
 
     public String toString (){
         StringBuilder item = new StringBuilder();
-        item.append("name: "+ name );
-        item.append("price: "+ price);
+        item.append( name + "  " +price.getAmount()+"  ");
+       // item.append("price: "+ price.getAmount());
+        //item.append("vatRate: "+vatRate);
         return  item.toString();
     }
 

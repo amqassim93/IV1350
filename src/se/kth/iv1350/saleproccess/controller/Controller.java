@@ -38,14 +38,22 @@ public class Controller {
         sale = new Sale();
     }
 
-    /** enter the iten with quantity more than one
-     * Exception thrown when invalid item */
+    /** enter the item with quantity more than one
+      */
 
-    public Item enterTheItem (int itemIdentifier, Amount quan)  {
-        Item entered = itemRegister.findItemById(itemIdentifier);
-        sale.addEnteredItem(entered, quan);
-        return entered;
+    public Item enterTheItem (int itemIdentifier,Amount quan) throws ItemNotFoundException, DataBaseFailurException {
+
+
+            Item entered = itemRegister.findItemById(itemIdentifier);
+            sale.addEnteredItem(entered, quan);
+
+            return entered;
+
+
+
+
     }
+
 
     public Amount getTotalCost(){
         return sale.getCurrentTotal();

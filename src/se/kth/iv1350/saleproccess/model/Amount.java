@@ -20,15 +20,25 @@ public class Amount {
     }
 
     public Amount plus(Amount otheramt){
-        return new Amount(otheramt.amount + 1);
+        return new Amount(otheramt.amount + this.amount);
     }
 
-    public void setAmount(double amt){
-
+    public double getAmount(){
+        return this.amount;
     }
 
     public Amount minus(Amount otheramt){
         return new Amount(amount - otheramt.amount);
+    }
+
+    public void setAmount(double amount){
+        this.amount = amount;
+    }
+
+    public String toString(){
+        StringBuilder amount = new StringBuilder();
+        amount.append(getAmount());
+        return amount.toString();
     }
 
 }

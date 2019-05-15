@@ -13,27 +13,50 @@ public class Sale {
     private CashPayment payment;
 
     public Sale(){
+        //Item valid = new Item("moz",5,new Amount(5.0),1.20);
         saleitems = new ArrayList<SalesItems>();
+       // saleitems.add(new SalesItems(valid,new Amount(3)));
     }
 
+
+
    public void addEnteredItem(Item entered, Amount quan){
-        if(saleitems == null){
+        if(saleitems.isEmpty()){
             SalesItems lineItem = new SalesItems(entered, quan);
             saleitems.add(lineItem);
+            //System.out.println("the lisr of sale items: "+ saleitems.toString());
+
         }
+
         else
             {
-                 for (SalesItems lineitem : saleitems)
-                 if(lineitem.getItem()== entered ){
-                quan = quan.plus(lineitem.getQuantity());
+                for (int i = 0; i < saleitems.size(); i++) {
+                    SalesItems lineitem = saleitems.get(i);
+                    //System.out.println("hhhhhhhhhh" + lineitem);
+                    if (entered.getItemId() == lineitem.getItem().getItemId() ) {
+                        lineitem.setQuantity(quan.plus(lineitem.getQuantity()));
+
+
+                       // SalesItems thisItem = new SalesItems(entered, quan);
+                       // saleitems.add(thisItem);
+                        //i++;
+                    }
+
+
+                    else {
+
+                        //quan = quan.plus(lineitem.getQuantity());
+                        //lineitem.setQuantity(quan.plus(lineitem.getQuantity()));
+                        SalesItems thisItem = new SalesItems(entered, quan);
+                        saleitems.add(thisItem);
+                        i++;
+
+
+                        //addTotal(lineItem);
+                    }
+                }
             }
-              else
-                 {
-                     SalesItems lineItem = new SalesItems(entered, quan);
-                     saleitems.add(lineItem);
-                     //addTotal(lineItem);
-            }
-            }
+
 
 
     }

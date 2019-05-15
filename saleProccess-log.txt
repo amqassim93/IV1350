@@ -1,0 +1,7 @@
+May 14, 2019, 6:29:52 PM, Exception was thrown: Somthing fel in database. The developers have been informed and will arrive as soon as possible. 
+se.kth.iv1350.saleproccess.model.DataBaseFailurException: Somthing fel in database. The developers have been informed and will arrive as soon as possible. 
+	at se.kth.iv1350.saleproccess.integration.ItemRegister.findItemById(ItemRegister.java:30)
+	at se.kth.iv1350.saleproccess.controller.Controller.enterTheItem(Controller.java:47)
+	at se.kth.iv1350.saleproccess.view.View.enterItem(View.java:62)
+	at se.kth.iv1350.saleproccess.view.View.sample(View.java:47)
+	at se.kth.iv1350.saleproccess.startup.main.main(main.java:21)

@@ -13,27 +13,25 @@ public class Receipt {
     public String extractlist(){
         List<SalesItems> list = sale.getSaleitems();
         StringBuilder builder = new StringBuilder();
+
+        appendLine(builder, "item "+" "+"price"+" "+"quantity "+" "+" total cost");
+        endSection(builder);
+
         for(SalesItems line : list ){
 
-            appendLine(builder,line.getItem().toString());
-
-
-           /* appendLine(builder,"price" + line.getItem().getPrice());
-
-
-            appendLine(builder,"cost: " + line.getCost());
-            endSection(builder);*/
+            appendLine(builder,line.getItem().toString()+ "  " +line.getQuantity().toString()+"   "+line.getCost());
+            endSection(builder);
         }
         return builder.toString();
     }
 
     public String createReceiptString(){
         StringBuilder builder = new StringBuilder();
-        appendLine(builder,"Sale ");
+        appendLine(builder,"************* Sale ************");
         endSection(builder);
 
         LocalDateTime saleTime = LocalDateTime.now();
-        builder.append("sale Time: ");
+        builder.append("********* sale Time:  ");
         appendLine(builder, saleTime.toString());
         endSection(builder);
 
