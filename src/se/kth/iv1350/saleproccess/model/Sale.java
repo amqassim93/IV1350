@@ -1,9 +1,7 @@
 package se.kth.iv1350.saleproccess.model;
 
 
-import se.kth.iv1350.saleproccess.integration.ItemRegister;
 import se.kth.iv1350.saleproccess.integration.Printer;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +13,7 @@ public class Sale {
     public Sale(){
         //Item valid = new Item("moz",5,new Amount(5.0),1.20);
         saleitems = new ArrayList<SalesItems>();
-        currentTotal = new Amount(0);
+
        // saleitems.add(new SalesItems(valid,new Amount(3)));
     }
 
@@ -67,6 +65,7 @@ public class Sale {
     }
 
     public Amount getCurrentTotal(){
+        currentTotal = new Amount(0);
         for(SalesItems line :saleitems ){
             currentTotal = currentTotal.plus(line.getCost());}
         return currentTotal;
@@ -77,7 +76,6 @@ public class Sale {
     }
 
     public  void pay(CashPayment payment){
-        payment.calculateTotalCost(this);
         this.payment = payment;
     }
 
@@ -88,7 +86,8 @@ public class Sale {
     public void printReceipt(Printer printer){
         Receipt receipt = new Receipt(this);
         printer.printReceipt(receipt);
-        System.out.println(getCurrentTotal());
+        System.out.println(" The PaidAmount " + payment.getAmount());
+        System.out.println(" The Change " + payment.getAmount().minus(currentTotal));
 
     }
 }

@@ -8,12 +8,12 @@ public class CashPayment {
         this.paidAmount = paidAmt;
     }
 
-    void calculateTotalCost(Sale sale){
-        totalcost = sale.getCurrentTotal();
+    public Amount calculateTotalCost(Sale sale){
+         return   totalcost = sale.getCurrentTotal();
     }
 
-   public Amount getTotalcost(){
-        return totalcost;
+   public Amount getAmount(){
+        return paidAmount;
     }
 
     Amount getChange(){

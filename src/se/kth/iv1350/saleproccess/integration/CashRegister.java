@@ -7,6 +7,6 @@ public class CashRegister {
     private Amount balance = new Amount();
 
     public void addpayment(CashPayment payment){
-        balance = balance.plus(payment.getTotalcost());
+        // balance = balance.plus(payment.getTotalcost());
     }
 }

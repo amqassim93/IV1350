@@ -41,4 +41,16 @@ public class Amount {
         return amount.toString();
     }
 
+    /** Test if equal */
+
+    @Override
+    public boolean equals(Object otherObj) {
+        if (otherObj == null || !(otherObj instanceof Amount)) {
+            return false;
+        }
+        Amount other = (Amount) otherObj;
+        return amount == other.amount;
+
+    }
+
 }

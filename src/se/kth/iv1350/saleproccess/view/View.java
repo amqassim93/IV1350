@@ -37,15 +37,11 @@ public class View {
         Item unvalid = new Item("apple",3,new Amount(3.0),2.0);
 
         contr.startNewSale();
-       /* contr.enterTheItem(5, new Amount(9));
-        contr.enterTheItem(5, new Amount(9));
-        contr.enterTheItem(4, new Amount(2));
-        contr.enterTheItem(4, new Amount(3));
-        contr.enterTheItem(7, new Amount(9));*/
-      // enterItem(5);
-       enterItem(4);
+
        enterItem(5);
-        //enterItem(7);
+       enterItem(4);
+
+        contr.signalLastItem();
 
         Amount payment = new Amount(50);
         contr.pay(payment);

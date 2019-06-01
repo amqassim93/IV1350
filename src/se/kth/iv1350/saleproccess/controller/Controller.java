@@ -59,17 +59,8 @@ public class Controller {
     }
 
 
-    public Amount getTotalCost(){
-        return sale.getCurrentTotal();
-    }
-
-    public Display getDisplay(){
-        return display;
-    }
-
     public void signalLastItem(){
-
-       // return sale.getCurrentTotal().multi(vat.getVatProcent());
+        System.out.println(" Varsågod gör betalning "+sale.getCurrentTotal());
     }
 
     public void pay(Amount paidAmt){

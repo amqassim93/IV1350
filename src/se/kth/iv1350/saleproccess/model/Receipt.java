@@ -38,6 +38,14 @@ public class Receipt {
         appendLine(builder, extractlist());
         endSection(builder);
 
+        builder.append("the total  ");
+        appendLine(builder, sale.getCurrentTotal().toString());
+        endSection(builder);
+
+        builder.append(" ****** Välkomment tillbaka ******");
+        appendLine(builder, " Willys ");
+        endSection(builder);
+
         return builder.toString();
     }
 

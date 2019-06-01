@@ -24,8 +24,8 @@ public class main {
         LogHandler logh = new LogHandler();
         View view = new View(contr,logh);
         view.sample();
-        TotalRevenueView totalR = new TotalRevenueView(display);
-        totalR.update(contr.getTotalCost());
+        //TotalRevenueView totalR = new TotalRevenueView(display);
+        //totalR.update(contr.getTotalCost());
 
 
     }
