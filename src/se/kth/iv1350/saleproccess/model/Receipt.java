@@ -1,13 +1,17 @@
 package se.kth.iv1350.saleproccess.model;
 
+import se.kth.iv1350.saleproccess.view.TotalRevenueView;
+
 import java.time.LocalDateTime;
 import java.util.List;
 
 public class Receipt {
     private Sale sale;
+    private TotalRevenueView totalRevenueView;
 
-    Receipt(Sale sale){
+    public Receipt(Sale sale){
         this.sale = sale;
+
     }
 
     public String extractlist(){
@@ -46,8 +50,11 @@ public class Receipt {
         appendLine(builder, " Willys ");
         endSection(builder);
 
+
+
         return builder.toString();
     }
+
 
     private void appendLine(StringBuilder builder, String line){
         builder.append(line);

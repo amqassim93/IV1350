@@ -20,7 +20,7 @@ public class Amount {
     }
 
     public Amount plus(Amount otheramt){
-        return new Amount(otheramt.amount + this.amount);
+        return new Amount(this.amount + otheramt.amount);
     }
 
     public double getAmount(){

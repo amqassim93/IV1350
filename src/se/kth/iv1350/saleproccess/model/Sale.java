@@ -2,10 +2,16 @@ package se.kth.iv1350.saleproccess.model;
 
 
 import se.kth.iv1350.saleproccess.integration.Printer;
+import se.kth.iv1350.saleproccess.view.TotalRevenueView;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Sale {
+
+
+    ArrayList<TotalObserver> observers = new ArrayList<TotalObserver>();
+
     private List<SalesItems> saleitems;
     private Amount currentTotal;
     private CashPayment payment;
@@ -88,6 +94,29 @@ public class Sale {
         printer.printReceipt(receipt);
         System.out.println(" The PaidAmount " + payment.getAmount());
         System.out.println(" The Change " + payment.getAmount().minus(currentTotal));
+        notifyObserver();
 
     }
+
+    public  void addObserver(TotalObserver observer){
+        this.observers.add(observer);
+
+    }
+
+    public void addObservers(List<TotalObserver> observers){
+        this.observers.addAll(observers);
+    }
+
+    private void notifyObserver(){
+
+
+        for (TotalObserver x :observers) {
+
+            x.update(this);
+        }
+
+
+    }
+
+
 }

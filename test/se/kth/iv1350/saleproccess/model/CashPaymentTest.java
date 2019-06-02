@@ -16,7 +16,7 @@ public class CashPaymentTest {
     public void tearDown() throws Exception {
     }
 
-   /* @Test
+    @Test
     public void calculateTotalCost() {
         Amount theAmt = new Amount(500);
         Sale sale = null;
@@ -25,13 +25,6 @@ public class CashPaymentTest {
         Amount expResult = null;
         Amount result = instance.calculateTotalCost(sale);
         assertEquals(expResult,result);
-    }*/
 
-    @Test
-    public void getAmount() {
-    }
 
-    @Test
-    public void getChange() {
-    }
-}
+}}

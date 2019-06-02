@@ -3,7 +3,7 @@ package se.kth.iv1350.saleproccess.model;
 public interface TotalObserver {
 
     /** Invoke when the total has been paid.
-     * @param total the total that was paid. */
+     * @param sale the total that was paid. */
 
-    public void update (Amount total);
+    public void update (Sale sale);
 }

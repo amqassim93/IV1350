@@ -3,10 +3,9 @@ package se.kth.iv1350.saleproccess.view;
 
 import se.kth.iv1350.saleproccess.controller.Controller;
 import se.kth.iv1350.saleproccess.log.LogHandler;
-import se.kth.iv1350.saleproccess.model.Amount;
-import se.kth.iv1350.saleproccess.model.DataBaseFailurException;
-import se.kth.iv1350.saleproccess.model.Item;
-import se.kth.iv1350.saleproccess.model.ItemNotFoundException;
+import se.kth.iv1350.saleproccess.model.*;
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -18,6 +17,7 @@ public class View {
 
     private Controller contr;
     private LogHandler logh;
+    private  TotalObserver totalObserver = new TotalRevenueView();
 
     /**
      * Creates a new instance.
@@ -29,22 +29,53 @@ public class View {
     public View (Controller contr, LogHandler logh) {
         this.contr = contr;
         this.logh=logh;
+        contr.addSaleObserver(new TotalRevenueView());
     }
 
     public void sample()  {
 
+
         Item valid = new Item("moz",5,new Amount(3),1.20);
         Item unvalid = new Item("apple",3,new Amount(3.0),2.0);
 
-        contr.startNewSale();
 
-       enterItem(5);
+
+
+       Sale x = contr.startNewSale();
+       x.addObserver(totalObserver);
+        //contr.addSaleObserver(totalObserver);
+
+        enterItem(5);
        enterItem(4);
 
         contr.signalLastItem();
 
         Amount payment = new Amount(50);
         contr.pay(payment);
+
+        Sale y = contr.startNewSale();
+        y.addObserver(totalObserver);
+        //contr.addSaleObserver(totalObserver);
+        enterItem(5);
+        enterItem(4);
+        Amount payment1 = new Amount(505);
+        contr.pay(payment);
+
+
+
+
+
+       /* enterItem(5);
+        enterItem(4);
+        contr.signalLastItem();
+
+        Amount payment2 = new Amount(600);
+        contr.pay(payment2);
+        contr.addSaleObserver(new TotalRevenueView());*/
+
+
+
+
 }
 
 private void showError(Exception error){
