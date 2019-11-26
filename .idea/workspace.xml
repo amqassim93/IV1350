@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea757f85-1e81-4e1b-bd06-7f604d9a1ba3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/model/Amount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/model/Amount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/model/Display.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/model/Receipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/model/Receipt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/model/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/model/Sale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/model/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/model/TotalObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/model/TotalObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/startup/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/startup/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/view/TotalRevenueView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/view/TotalRevenueView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POS/se/kth/iv1350/saleproccess/view/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/POS/se/kth/iv1350/saleproccess/model/CashPaymentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/POS/se/kth/iv1350/saleproccess/model/CashPaymentTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Amount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Amount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Display.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Sale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/TotalObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/TotalObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/startup/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/startup/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/TotalRevenueView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/TotalRevenueView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/se/kth/iv1350/saleproccess/model/CashPaymentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/se/kth/iv1350/saleproccess/model/CashPaymentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,18 +97,35 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-378956511">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="31" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
+            <state relative-caret-position="15">
               <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1426#1427#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/startup/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="270">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,13 +146,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Sale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="1290">
               <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#235#250#0" expanded="true" />
-                <element signature="e#2882#2883#0" expanded="true" />
-                <element signature="e#2933#2934#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,7 +158,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Amount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="225">
               <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
               <folding>
                 <element signature="e#268#269#0" expanded="true" />
@@ -204,11 +196,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/TotalRevenueView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="540">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#330#338#0" expanded="true" />
                 <element signature="e#609#610#0" expanded="true" />
                 <element signature="e#658#659#0" expanded="true" />
               </folding>
@@ -216,18 +207,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="390">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#757#772#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
-                <element signature="e#1694#1695#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -236,7 +222,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/integration/ItemRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="375">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -248,7 +234,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="405">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#388#389#0" expanded="true" />
@@ -312,12 +298,12 @@
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/TotalObserver.java" />
         <option value="$PROJECT_DIR$/test/se/kth/iv1350/saleproccess/model/CashPaymentTest.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/startup/main.java" />
-        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Receipt.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Sale.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Amount.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/TotalRevenueView.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/View.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/controller/Controller.java" />
       </list>
     </option>
   </component>
@@ -340,6 +326,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -416,8 +404,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -586,8 +572,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.3190272" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.32331902" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.24964234" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -632,13 +619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../period4/objektorienterad design /se/kth/iv1350/POSsys/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../period4/objektorienterad design /se/kth/iv1350/POSsys/controller/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Discount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -681,10 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,10 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,9 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="115" column="29" selection-start-line="115" selection-start-column="29" selection-end-line="115" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,10 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,26 +772,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Subject.java" />
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Display.java" />
     <entry file="file://$PROJECT_DIR$/test/se/kth/iv1350/saleproccess/model/CashPaymentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -840,74 +785,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/TotalObserver.java">
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/startup/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/integration/ItemRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="270">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Sale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/SalesItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="1290">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#757#772#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Amount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="225">
           <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
           <folding>
             <element signature="e#268#269#0" expanded="true" />
@@ -926,50 +839,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Sale.java">
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/SalesItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#250#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2933#2934#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/TotalRevenueView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="540">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#330#338#0" expanded="true" />
             <element signature="e#609#610#0" expanded="true" />
             <element signature="e#658#659#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/startup/main.java">
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/integration/ItemRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="375">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        <state relative-caret-position="405">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/model/TotalObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleproccess/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
           </folding>
         </state>
       </provider>

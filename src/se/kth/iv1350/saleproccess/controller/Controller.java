@@ -24,6 +24,7 @@ public class Controller {
     private Printer printer;
     private ArrayList<TotalObserver> salesObservers = new ArrayList<TotalObserver>();
     private Amount runingTotal;
+    /* show the changes*/
 
 
     /** create a new instance
